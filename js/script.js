@@ -93,3 +93,6 @@ let novo = document.getElementById("nome")
 function mudar(){
     document.getElementById("titulo").innerHTML = novo.value;
 }
+function trocar(cores){
+    document.body.style.background = cores
+}
