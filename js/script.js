@@ -41,3 +41,18 @@ console.log(valor1)
 for(let i=1; i<10; i++){
     console.log("Agora i vale" + i)
 }
+
+//for com array
+
+let carros=["fusca", "belina", "Marea Turbo", "Kombi", "Gurgel"]
+
+for(let i=0; i < carros.length; i++){
+    console.log(carros[i]);
+}
+
+//for com of
+
+for(let carro of carros){
+    console.log(carro)
+}
+
