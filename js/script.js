@@ -20,7 +20,6 @@ switch(opcao){
         document.write("Nenhuma das opções validas")
         break;
 }
-*/
 
 //incremento e decremento
 
@@ -86,3 +85,11 @@ function avisar(){
     alert("avisar")
 }
 avisar()
+
+*/
+
+let novo = document.getElementById("nome")
+
+function mudar(){
+    document.getElementById("titulo").innerHTML = novo.value;
+}
