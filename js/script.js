@@ -74,3 +74,15 @@ do{
     valor2++
 }
 while(valor2 < 10)
+
+//função
+
+function teste(num1, num2){
+    return num1 - num2
+}
+console.log(teste(4,6))
+
+function avisar(){
+    alert("avisar")
+}
+avisar()
