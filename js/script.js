@@ -56,3 +56,21 @@ for(let carro of carros){
     console.log(carro)
 }
 
+//while
+
+let cont = 0
+
+while(cont < 20){
+    console.log("Passagem de números"+cont);
+    cont++
+}
+
+//do while
+
+let valor2 = 0
+
+do{
+    console.log("Passagem"+valor2)
+    valor2++
+}
+while(valor2 < 10)
